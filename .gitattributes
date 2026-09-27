@@ -1,0 +1,11 @@
+# Generated on 2026-11-18
+# Exclude build artifacts
+# Project-specific overrides
+*.svg text
+vendor/* linguist-vendored
+docs/* linguist-vendored
+docs/** linguist-vendored
+
+*.map linguist-generated
+src/**/*.ts linguist-detectable  
+*.yaml linguist-detectable=false
